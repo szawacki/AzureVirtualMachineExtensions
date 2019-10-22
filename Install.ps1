@@ -12,4 +12,4 @@ Param(
 
 Start-BitsTransfer -Source "https://raw.githubusercontent.com/szawacki/AzureVirtualMachineExtensions/master/InstallDomainController.ps1" -Description "Install.ps1"
 
-& Install.ps1 -DomainName $DomainName -Password Password
+#& Install.ps1 -DomainName $DomainName -Password Password
