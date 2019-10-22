@@ -11,4 +11,4 @@ Param(
 )
 
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-Install-ADDSForest -DomainName $DomainName -SafeModeAdministratorPassword $Password
+Install-ADDSForest -DomainName $DomainName -SafeModeAdministratorPassword $Password -Force
